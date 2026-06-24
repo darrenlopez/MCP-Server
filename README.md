@@ -2,7 +2,7 @@
 
 > A [Model Context Protocol](https://modelcontextprotocol.io) server that lets any MCP-compatible AI host (Cursor, Claude Desktop, Zed, etc.) read, search, link, and write notes inside a local Markdown / [Obsidian](https://obsidian.md) vault.
 
-[![CI](https://github.com/darrenlopez/MCP-Server/actions/workflows/ci.yml/badge.svg)](https://github.com/darrenlopez/MCP-Server/actions/workflows/ci.yml)
+[![CI](https://github.com/darrenlopez/obsidian-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/darrenlopez/obsidian-mcp/actions/workflows/ci.yml)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 
@@ -57,8 +57,8 @@ cannot be coerced into reading files outside the configured vault root.
 ### 1. Install
 
 ```bash
-git clone https://github.com/darrenlopez/MCP-Server.git
-cd MCP-Server
+git clone https://github.com/darrenlopez/obsidian-mcp.git
+cd obsidian-mcp
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 ```

@@ -40,9 +40,9 @@ dev = [
 obsidian-mcp = "obsidian_mcp.__main__:main"
 
 [project.urls]
-Homepage = "https://github.com/darrenlopez/MCP-Server"
-Repository = "https://github.com/darrenlopez/MCP-Server"
-Issues = "https://github.com/darrenlopez/MCP-Server/issues"
+Homepage = "https://github.com/darrenlopez/obsidian-mcp"
+Repository = "https://github.com/darrenlopez/obsidian-mcp"
+Issues = "https://github.com/darrenlopez/obsidian-mcp/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/obsidian_mcp"]
